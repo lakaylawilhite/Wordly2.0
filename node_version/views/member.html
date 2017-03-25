@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="memberApp">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title></title>
+
+        <!-- styles -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.5/themes/classic/galleria.classic.css" />
+        <link rel="stylesheet" type="text/css" href="css/member_style.css">
+
+        <!-- scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.4.5/galleria.min.js"></script>
+        <script src="js/member.js"></script>
+    </head>
+    <body ng-controller="mainController">
+        <div id="map"></div>
+
+        <!-- Galleria -->
+        <script>
+          Galleria.loadTheme("https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.5/themes/classic/galleria.classic.js");
+        </script>
+
+        <!-- Google Maps -->
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZjD3jPk1OUFBjPzxN7nvN3LqUb_at6p8&callback=initMap">
+        </script>
+    </body>
+</html>

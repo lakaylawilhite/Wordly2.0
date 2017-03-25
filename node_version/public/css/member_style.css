@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+    height: 100%;
+}
+
+.galleria {
+    max-width: 700px;
+    height: 350px;
+    background: #000;
+}
+
+.infoWindow {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.infoWindow h1 button {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.infoWindow form {
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    height: 250px;
+    background-color: white;
+    transform: translateX(-50%);
+}
+
+.infoWindow form input {
+    padding: 10px;
+    font-size: 1.25em;
+    display: block;
+    margin: 0 auto 25px auto;
+}
+
+.infoWindow form input[type='file']{
+    background-color: aliceblue;
+}
+
+.hide {
+    opacity: 0;
+}
